@@ -1,0 +1,78 @@
+/* Estilos para la barra de navegación fija */
+body {
+     margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Estilo para las secciones */
+section {
+    padding: 80px 20px; /* Ajustar para evitar que el contenido quede oculto bajo la barra fija */
+    min-height: 100vh;
+}
+
+section:nth-child(odd) {
+    background-color: #f4f4f4;
+}
+
+section:nth-child(even) {
+    background-color: #e2e2e2;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px)
+{
+    nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #333;
+    }
+    nav ul li a {
+    padding: 1em;
+    text-align: center;
+    }
+    #nav-toggle {
+    display: block;
+    }
+    .nav-open ul {
+    display: flex;
+    }
+}

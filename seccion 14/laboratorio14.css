@@ -1,0 +1,54 @@
+  .contenedor{
+    width: auto;      /* Ancho fijo de 800 píxeles */
+    margin: 0 auto;    /* Centra el contenedor en la página */
+    padding: 20px;     /* Relleno interno de 20 píxeles */
+    background-color: #c3d7f1;  /* Fondo gris claro */
+    border: 5p dashed #0e0d0d;     /* Borde gris claro */
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10%;
+  }
+
+  .contenedor1 a{
+    text-decoration: none;
+  }
+  /*agregando boton*/
+  .contenedor1 .btn {
+    display: inline-block; /* Hace que los enlaces se comporten como botones */
+    background-color: #4CAF50; /* Fondo verde para los botones */
+    color: white; /* Color de texto blanco */
+    padding: 10px 20px; /* Relleno del botón */
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none; /* Eliminar subrayado del enlace */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Muestra cursor de mano */
+    transition: background-color 0.3s; /* Efecto de transición */
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(176, 224, 238);
+
+}
+section{
+    font-style: oblique;
+    background-color: rgb(192, 161, 221);
+}
+#s1{
+    background-color: brown;
+}
+.c1{
+    background-color: blue;
+
+}
+h1{
+    color: rgb(32, 32, 141);
+    text-align: center;
+}
+
+nav ul li
+{/*Colocamos la barra horizontal*/
+    display: inline-block;  /* Mostrar los elementos en línea */
+    margin-right: 20px; /* Espaciado entre los elementos */
+}
+  
